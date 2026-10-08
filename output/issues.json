@@ -1,0 +1,194 @@
+[
+  {
+    "code": "COA_AMBIGUOUS_CF",
+    "severity": "warn",
+    "subject": "1150",
+    "message": "1150 'Other Current Assets' has cash-flow category TBD.",
+    "action": "Finance to assign Operating/Investing/Financing before the cash flow statement is built.",
+    "amount": ""
+  },
+  {
+    "code": "COA_EMPTY_HEADER",
+    "severity": "warn",
+    "subject": "1290",
+    "message": "Header 1290 'Other Assets' has no children mapped.",
+    "action": "Confirm whether it is dead or accounts are missing.",
+    "amount": ""
+  },
+  {
+    "code": "COA_AMBIGUOUS_CF",
+    "severity": "warn",
+    "subject": "2170",
+    "message": "2170 'Intercompany Payable' has cash-flow category TBD.",
+    "action": "Finance to assign Operating/Investing/Financing before the cash flow statement is built.",
+    "amount": ""
+  },
+  {
+    "code": "COA_NO_NORMAL_BAL",
+    "severity": "info",
+    "subject": "7000",
+    "message": "Header 7000 has no normal_balance (harmless, headers never hold balances).",
+    "action": "",
+    "amount": ""
+  },
+  {
+    "code": "COA_TYPED_PARENT",
+    "severity": "info",
+    "subject": "3300",
+    "message": "3300 is typed 'Equity' but has children; treated as a header.",
+    "action": "",
+    "amount": ""
+  },
+  {
+    "code": "COA_TYPED_PARENT",
+    "severity": "info",
+    "subject": "8000",
+    "message": "8000 is typed 'Expense' but has children; treated as a header.",
+    "action": "",
+    "amount": ""
+  },
+  {
+    "code": "COA_PL_CF_TAG",
+    "severity": "info",
+    "subject": "6500,6510,6600,7300,7310,7400,8100,8200",
+    "message": "P&L accounts carry a cf_category (non-cash add-backs / investing gains). Treated as cash-flow-statement hints, irrelevant to P&L and BS.",
+    "action": "",
+    "amount": ""
+  },
+  {
+    "code": "FX_MISSING_RATE",
+    "severity": "high",
+    "subject": "GBP/period_end",
+    "message": "No period_end rate for GBP. Provisionally using period_average 1.264 (trial_balance.csv:L4).",
+    "action": "Treasury to supply the GBP period_end rate and re-run. Every GBP balance is provisional until then.",
+    "amount": ""
+  },
+  {
+    "code": "TB_DUP_CODE",
+    "severity": "high",
+    "subject": "current:6310",
+    "message": "Account 6310 appears more than once in trial_balance.csv (trial_balance.csv:L48 and trial_balance.csv:L49) with different amounts in USD.",
+    "action": "Rows summed (an exact repeat would instead be quarantined). Confirm it is not a double-posted export line.",
+    "amount": "38500.00"
+  },
+  {
+    "code": "MAP_ESCALATE",
+    "severity": "high",
+    "subject": "current:9999",
+    "message": "trial_balance.csv:L63: '9999 Suspense - Unmapped' not auto-mappable (best guess 7310 'FX Gain/Loss - Unrealized', confidence 0.27, fuzzy_name_and_range). Balance Dr 12400.00 / Cr 0.00.",
+    "action": "Held in an explicit 'Unmapped' bucket on the statements until a human approves a target.",
+    "amount": "12400.00"
+  },
+  {
+    "code": "CTA_PROVISIONAL",
+    "severity": "warn",
+    "subject": "3310",
+    "message": "Translating EUR/GBP cash at closing rates created 187,260.20 of FX difference, posted provisionally to 3310 FX Translation Reserve. For a USD-functional entity ASC 830 remeasurement would normally hit P&L (7310) instead. Controller to decide.",
+    "action": "",
+    "amount": "187260.20"
+  },
+  {
+    "code": "ADJ_REVIEW",
+    "severity": "info",
+    "subject": "JE-006",
+    "message": "Accepted, but note TB depreciation expense (850,000) already equals the full movement in accumulated depreciation vs prior period (4,200,000 - 3,350,000); this entry adds on top. Plausible, worth a look.",
+    "action": "",
+    "amount": ""
+  },
+  {
+    "code": "ADJ_REJECTED",
+    "severity": "high",
+    "subject": "JE-002",
+    "message": "Debits (28,500.00) do not equal credits (25,000.00); out of balance by 3,500.00. An unbalanced entry would silently break the balance sheet, so none of it is posted.",
+    "action": "Entry excluded from statements; finance owner to correct and resubmit.",
+    "amount": ""
+  },
+  {
+    "code": "ADJ_QUARANTINED",
+    "severity": "high",
+    "subject": "JE-003",
+    "message": "Booked uplift 11,200.00 cannot be reproduced: EUR 825,400.00 x (period-end 1.095 - average 1.082) = 10,730.20; x (period-end - opening 1.071) = 19,809.60. Also, this pipeline already translates EUR/GBP cash at the period-end rate, so posting this on top would count the FX gain twice. Held until the reval basis is confirmed.",
+    "action": "Entry excluded from statements; finance owner to correct and resubmit.",
+    "amount": ""
+  },
+  {
+    "code": "ADJ_QUARANTINED",
+    "severity": "high",
+    "subject": "JE-005",
+    "message": "Account 6315 is not a postable account in the chart of accounts (closest: 6310 'Travel and Entertainment', confidence 0.64 - below the 0.9 auto-accept bar). Needs a finance owner to confirm the right account.",
+    "action": "Entry excluded from statements; finance owner to correct and resubmit.",
+    "amount": ""
+  },
+  {
+    "code": "ADJ_REJECTED",
+    "severity": "high",
+    "subject": "JE-008",
+    "message": "Every line hits the same account (2170), so the entry nets to zero and changes nothing, yet the description says a settlement happened. A real settlement must touch another account (cash, or the counterparty's intercompany receivable). Likely a mis-keyed entry.",
+    "action": "Entry excluded from statements; finance owner to correct and resubmit.",
+    "amount": ""
+  },
+  {
+    "code": "MAP_ESCALATE",
+    "severity": "high",
+    "subject": "prior:6905",
+    "message": "prior_period_tb.csv:L34: '6905 Sundry Operating Expenses' not auto-mappable (best guess 6900 'Other Operating Expenses', confidence 0.89, fuzzy_name_and_range). Balance Dr 132000.00 / Cr 0.00.",
+    "action": "Held in an explicit 'Unmapped' bucket on the statements until a human approves a target.",
+    "amount": "132000.00"
+  },
+  {
+    "code": "PRIOR_UNBALANCED",
+    "severity": "high",
+    "subject": "prior_period_tb.csv",
+    "message": "Prior-period TB is itself out of balance by 2,832,800.00 (Dr - Cr, nominal) and contains only one P&L account (UNMAPPED:6905). It looks like a balance-sheet-only extract missing P&L/closing entries, so P&L comparatives are not produced and BS comparatives are indicative only.",
+    "action": "Obtain a complete, balanced prior TB.",
+    "amount": "2832800.00"
+  },
+  {
+    "code": "PRIOR_RENAMED",
+    "severity": "warn",
+    "subject": "6905",
+    "message": "Prior 6905 'Sundry Operating Expenses' is absent from the COA; closest is 6900 (confidence 0.89). Treated as a probable rename but not auto-merged.",
+    "action": "",
+    "amount": ""
+  },
+  {
+    "code": "FX_MISSING_RATE",
+    "severity": "high",
+    "subject": "GBP/period_end",
+    "message": "No period_end rate for GBP. Provisionally using period_average 1.264 (shadow).",
+    "action": "Treasury to supply the GBP period_end rate and re-run. Every GBP balance is provisional until then.",
+    "amount": ""
+  },
+  {
+    "code": "VERIFY_FAIL",
+    "severity": "blocker",
+    "subject": "V1 source TB balanced (nominal Dr = Cr)",
+    "message": "Dr - Cr = -4,800.00 before any FX or adjustments",
+    "action": "Statements are labelled DRAFT; no plug has been posted.",
+    "amount": ""
+  },
+  {
+    "code": "VERIFY_FAIL",
+    "severity": "blocker",
+    "subject": "V3 accounting equation A = L + E (mapped accounts)",
+    "message": "A 36,223,560.20 - L 18,770,000.00 - (E 12,687,260.20 + current NI 4,783,500.00) = -17,200.00",
+    "action": "Statements are labelled DRAFT; no plug has been posted.",
+    "amount": ""
+  },
+  {
+    "code": "VERIFY_FAIL",
+    "severity": "blocker",
+    "subject": "V6 no unmapped balances on statements",
+    "message": "unmapped net Dr 12,400.00",
+    "action": "Statements are labelled DRAFT; no plug has been posted.",
+    "amount": ""
+  },
+  {
+    "code": "VERIFY_FAIL",
+    "severity": "warn",
+    "subject": "V9 opening RE = prior-period closing RE",
+    "message": "current 3200 7,240,000.00 vs prior TB 3200 5,180,000.00; unexplained movement 2,060,000.00 (prior TB has no P&L accounts, so NI/dividends cannot be bridged)",
+    "action": "Review.",
+    "amount": ""
+  }
+]

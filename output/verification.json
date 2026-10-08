@@ -1,0 +1,62 @@
+[
+  {
+    "check": "V1 source TB balanced (nominal Dr = Cr)",
+    "passed": false,
+    "detail": "Dr - Cr = -4,800.00 before any FX or adjustments",
+    "blocking": true
+  },
+  {
+    "check": "V2 independent recompute from raw rows matches statements",
+    "passed": true,
+    "detail": "second implementation vs statement build, differences: assets 0.00, liabilities 0.00, equity 0.00, net income 0.00",
+    "blocking": false
+  },
+  {
+    "check": "V3 accounting equation A = L + E (mapped accounts)",
+    "passed": false,
+    "detail": "A 36,223,560.20 - L 18,770,000.00 - (E 12,687,260.20 + current NI 4,783,500.00) = -17,200.00",
+    "blocking": true
+  },
+  {
+    "check": "V4 statement gap reconciles to ledger residual and unmapped balances",
+    "passed": true,
+    "detail": "statement gap -17,200.00 = ledger residual -4,800.00 - unmapped 12,400.00",
+    "blocking": false
+  },
+  {
+    "check": "V5 net income independent recompute",
+    "passed": true,
+    "detail": "P&L tree 4,783,500.00 vs ledger sum 4,783,500.00",
+    "blocking": false
+  },
+  {
+    "check": "V6 no unmapped balances on statements",
+    "passed": false,
+    "detail": "unmapped net Dr 12,400.00",
+    "blocking": true
+  },
+  {
+    "check": "V7 lineage sums to every account balance",
+    "passed": true,
+    "detail": "mismatches: none",
+    "blocking": false
+  },
+  {
+    "check": "V8 balances sit on their normal side",
+    "passed": true,
+    "detail": "abnormal: none",
+    "blocking": false
+  },
+  {
+    "check": "V9 opening RE = prior-period closing RE",
+    "passed": false,
+    "detail": "current 3200 7,240,000.00 vs prior TB 3200 5,180,000.00; unexplained movement 2,060,000.00 (prior TB has no P&L accounts, so NI/dividends cannot be bridged)",
+    "blocking": false
+  },
+  {
+    "check": "V10 SOCIE closing equity = balance sheet equity + net income",
+    "passed": true,
+    "detail": "SOCIE closing 17,470,760.20 vs BS 17,470,760.20; unexplained equity movement 2,332,260.20",
+    "blocking": false
+  }
+]

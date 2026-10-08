@@ -1,0 +1,16 @@
+[project]
+name = "fsgen"
+version = "0.2.0"
+description = "Deterministic financial statement generator with LLM-advisor guardrails, verification and lineage"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+ui = ["streamlit", "pandas"]
+llm = ["anthropic"]
+
+[project.scripts]
+fsgen = "fsgen.cli:main"
+
+[tool.ruff]
+line-length = 130

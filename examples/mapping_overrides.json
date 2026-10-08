@@ -1,0 +1,7 @@
+{
+  "9999": {
+    "target": "6900",
+    "approved_by": "controller@example.com",
+    "reason": "Suspense balance confirmed as miscellaneous operating expense per AP review"
+  }
+}

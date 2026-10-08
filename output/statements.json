@@ -1,0 +1,496 @@
+{
+  "status": "DRAFT - BLOCKED (do not release)",
+  "profit_and_loss": {
+    "revenue": {
+      "code": "4000",
+      "name": "Total Revenue",
+      "value": "34485000.00",
+      "children": [
+        {
+          "code": "4100",
+          "name": "Product Revenue",
+          "value": "28500000.00",
+          "children": []
+        },
+        {
+          "code": "4110",
+          "name": "Service Revenue",
+          "value": "6200000.00",
+          "children": []
+        },
+        {
+          "code": "4200",
+          "name": "Sales Returns and Allowances",
+          "value": "-340000.00",
+          "children": []
+        },
+        {
+          "code": "4300",
+          "name": "Other Operating Revenue",
+          "value": "125000.00",
+          "children": []
+        }
+      ]
+    },
+    "cogs": {
+      "code": "5000",
+      "name": "Cost of Goods Sold",
+      "value": "16650000.00",
+      "children": [
+        {
+          "code": "5100",
+          "name": "COGS - Materials",
+          "value": "9800000.00",
+          "children": []
+        },
+        {
+          "code": "5110",
+          "name": "COGS - Direct Labor",
+          "value": "4200000.00",
+          "children": []
+        },
+        {
+          "code": "5120",
+          "name": "COGS - Manufacturing Overhead",
+          "value": "2650000.00",
+          "children": []
+        }
+      ]
+    },
+    "opex": {
+      "code": "6000",
+      "name": "Operating Expenses",
+      "value": "11840500.00",
+      "children": [
+        {
+          "code": "6100",
+          "name": "Salaries and Wages",
+          "value": "6250000.00",
+          "children": []
+        },
+        {
+          "code": "6110",
+          "name": "Employee Benefits",
+          "value": "920000.00",
+          "children": []
+        },
+        {
+          "code": "6120",
+          "name": "Payroll Taxes",
+          "value": "410000.00",
+          "children": []
+        },
+        {
+          "code": "6200",
+          "name": "Rent Expense",
+          "value": "480000.00",
+          "children": []
+        },
+        {
+          "code": "6210",
+          "name": "Utilities",
+          "value": "115000.00",
+          "children": []
+        },
+        {
+          "code": "6220",
+          "name": "Office Supplies",
+          "value": "62000.00",
+          "children": []
+        },
+        {
+          "code": "6300",
+          "name": "Marketing and Advertising",
+          "value": "980000.00",
+          "children": []
+        },
+        {
+          "code": "6310",
+          "name": "Travel and Entertainment",
+          "value": "283500.00",
+          "children": []
+        },
+        {
+          "code": "6400",
+          "name": "Professional Fees",
+          "value": "595000.00",
+          "children": []
+        },
+        {
+          "code": "6410",
+          "name": "Insurance",
+          "value": "180000.00",
+          "children": []
+        },
+        {
+          "code": "6500",
+          "name": "Depreciation Expense",
+          "value": "1065000.00",
+          "children": []
+        },
+        {
+          "code": "6510",
+          "name": "Amortization Expense",
+          "value": "220000.00",
+          "children": []
+        },
+        {
+          "code": "6600",
+          "name": "Bad Debt Expense",
+          "value": "140000.00",
+          "children": []
+        },
+        {
+          "code": "6900",
+          "name": "Other Operating Expenses",
+          "value": "140000.00",
+          "children": []
+        }
+      ]
+    },
+    "non_operating": {
+      "code": "7000",
+      "name": "Non-Operating Items",
+      "value": "-373000.00",
+      "children": [
+        {
+          "code": "7100",
+          "name": "Interest Income",
+          "value": "62000.00",
+          "children": []
+        },
+        {
+          "code": "7200",
+          "name": "Interest Expense",
+          "value": "-410000.00",
+          "children": []
+        },
+        {
+          "code": "7300",
+          "name": "FX Gain/Loss - Realized",
+          "value": "-85000.00",
+          "children": []
+        },
+        {
+          "code": "7310",
+          "name": "FX Gain/Loss - Unrealized",
+          "value": "42000.00",
+          "children": []
+        },
+        {
+          "code": "7400",
+          "name": "Gain/Loss on Disposal of Assets",
+          "value": "18000.00",
+          "children": []
+        }
+      ]
+    },
+    "tax": {
+      "code": "8000",
+      "name": "Income Tax Expense",
+      "value": "838000.00",
+      "children": [
+        {
+          "code": "8100",
+          "name": "Current Tax Expense",
+          "value": "680000.00",
+          "children": []
+        },
+        {
+          "code": "8200",
+          "name": "Deferred Tax Expense",
+          "value": "158000.00",
+          "children": []
+        }
+      ]
+    },
+    "gross_profit": "17835000.00",
+    "operating_income": "5994500.00",
+    "non_operating_net": "-373000.00",
+    "pre_tax_income": "5621500.00",
+    "net_income": "4783500.00"
+  },
+  "balance_sheet": {
+    "assets": {
+      "code": "1000",
+      "name": "Total Assets",
+      "value": "36223560.20",
+      "children": [
+        {
+          "code": "1100",
+          "name": "Current Assets",
+          "value": "17278860.20",
+          "children": [
+            {
+              "code": "1110",
+              "name": "Cash and Cash Equivalents",
+              "value": "5674960.20",
+              "children": []
+            },
+            {
+              "code": "1120",
+              "name": "Accounts Receivable",
+              "value": "6180500.00",
+              "children": []
+            },
+            {
+              "code": "1121",
+              "name": "Allowance for Doubtful Accounts",
+              "value": "-230000.00",
+              "children": []
+            },
+            {
+              "code": "1130",
+              "name": "Inventory - Raw Materials",
+              "value": "1920000.00",
+              "children": []
+            },
+            {
+              "code": "1131",
+              "name": "Inventory - Finished Goods",
+              "value": "3410000.00",
+              "children": []
+            },
+            {
+              "code": "1140",
+              "name": "Prepaid Expenses",
+              "value": "245000.00",
+              "children": []
+            },
+            {
+              "code": "1150",
+              "name": "Other Current Assets",
+              "value": "78400.00",
+              "children": []
+            }
+          ]
+        },
+        {
+          "code": "1200",
+          "name": "Non-Current Assets",
+          "value": "18944700.00",
+          "children": [
+            {
+              "code": "1210",
+              "name": "Property, Plant & Equipment - Cost",
+              "value": "17007700.00",
+              "children": []
+            },
+            {
+              "code": "1211",
+              "name": "Accumulated Depreciation - PPE",
+              "value": "-4415000.00",
+              "children": []
+            },
+            {
+              "code": "1220",
+              "name": "Intangible Assets - Cost",
+              "value": "2800000.00",
+              "children": []
+            },
+            {
+              "code": "1221",
+              "name": "Accumulated Amortization",
+              "value": "-980000.00",
+              "children": []
+            },
+            {
+              "code": "1230",
+              "name": "Goodwill",
+              "value": "3500000.00",
+              "children": []
+            },
+            {
+              "code": "1240",
+              "name": "Long-term Investments",
+              "value": "750000.00",
+              "children": []
+            },
+            {
+              "code": "1250",
+              "name": "Deferred Tax Asset",
+              "value": "282000.00",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "liabilities": {
+      "code": "2000",
+      "name": "Total Liabilities",
+      "value": "18770000.00",
+      "children": [
+        {
+          "code": "2100",
+          "name": "Current Liabilities",
+          "value": "9755000.00",
+          "children": [
+            {
+              "code": "2110",
+              "name": "Accounts Payable",
+              "value": "2840000.00",
+              "children": []
+            },
+            {
+              "code": "2120",
+              "name": "Accrued Expenses",
+              "value": "2075000.00",
+              "children": []
+            },
+            {
+              "code": "2130",
+              "name": "Short-term Debt",
+              "value": "1500000.00",
+              "children": []
+            },
+            {
+              "code": "2140",
+              "name": "Current Portion of Long-term Debt",
+              "value": "1000000.00",
+              "children": []
+            },
+            {
+              "code": "2150",
+              "name": "Income Tax Payable",
+              "value": "420000.00",
+              "children": []
+            },
+            {
+              "code": "2160",
+              "name": "Deferred Revenue",
+              "value": "680000.00",
+              "children": []
+            },
+            {
+              "code": "2170",
+              "name": "Intercompany Payable",
+              "value": "1240000.00",
+              "children": []
+            }
+          ]
+        },
+        {
+          "code": "2200",
+          "name": "Non-Current Liabilities",
+          "value": "9015000.00",
+          "children": [
+            {
+              "code": "2210",
+              "name": "Long-term Debt",
+              "value": "6300000.00",
+              "children": []
+            },
+            {
+              "code": "2220",
+              "name": "Lease Liability - Long-term",
+              "value": "1320000.00",
+              "children": []
+            },
+            {
+              "code": "2230",
+              "name": "Deferred Tax Liability",
+              "value": "485000.00",
+              "children": []
+            },
+            {
+              "code": "2240",
+              "name": "Pension Obligations",
+              "value": "910000.00",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "equity": {
+      "code": "3000",
+      "name": "Total Equity",
+      "value": "12687260.20",
+      "children": [
+        {
+          "code": "3100",
+          "name": "Common Stock",
+          "value": "1000000.00",
+          "children": []
+        },
+        {
+          "code": "3110",
+          "name": "Additional Paid-in Capital",
+          "value": "4500000.00",
+          "children": []
+        },
+        {
+          "code": "3200",
+          "name": "Retained Earnings",
+          "value": "7240000.00",
+          "children": []
+        },
+        {
+          "code": "3300",
+          "name": "Accumulated OCI",
+          "value": "367260.20",
+          "children": [
+            {
+              "code": "3310",
+              "name": "FX Translation Reserve",
+              "value": "367260.20",
+              "children": []
+            }
+          ]
+        },
+        {
+          "code": "3400",
+          "name": "Treasury Stock",
+          "value": "-420000.00",
+          "children": []
+        }
+      ]
+    }
+  },
+  "socie": [
+    {
+      "component": "3100 Common stock",
+      "opening": "1000000.00",
+      "net_income": "0",
+      "unexplained_movement": "0.00",
+      "closing": "1000000.00"
+    },
+    {
+      "component": "3110 Additional paid-in capital",
+      "opening": "4500000.00",
+      "net_income": "0",
+      "unexplained_movement": "0.00",
+      "closing": "4500000.00"
+    },
+    {
+      "component": "3200 Retained earnings",
+      "opening": "5180000.00",
+      "net_income": "4783500.00",
+      "unexplained_movement": "2060000.00",
+      "closing": "12023500.00"
+    },
+    {
+      "component": "3310 FX translation reserve",
+      "opening": "95000.00",
+      "net_income": "0",
+      "unexplained_movement": "272260.20",
+      "closing": "367260.20"
+    },
+    {
+      "component": "3400 Treasury stock",
+      "opening": "-420000.00",
+      "net_income": "0",
+      "unexplained_movement": "0.00",
+      "closing": "-420000.00"
+    },
+    {
+      "component": "Total equity",
+      "opening": "10355000.00",
+      "net_income": "4783500.00",
+      "unexplained_movement": "2332260.20",
+      "closing": "17470760.20"
+    }
+  ],
+  "net_income": "4783500.00"
+}

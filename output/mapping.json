@@ -1,0 +1,766 @@
+{
+  "current": [
+    {
+      "src": "trial_balance.csv:L2",
+      "code": "1110",
+      "name": "Cash and Cash Equivalents",
+      "target": "1110",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L3",
+      "code": "1110",
+      "name": "Cash and Cash Equivalents",
+      "target": "1110",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L4",
+      "code": "1110",
+      "name": "Cash and Cash Equivalents",
+      "target": "1110",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L5",
+      "code": "1120",
+      "name": "Accounts Receivable",
+      "target": "1120",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L6",
+      "code": "1121",
+      "name": "Allowance for Doubtful Accounts",
+      "target": "1121",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L7",
+      "code": "1130",
+      "name": "Inventory - Raw Materials",
+      "target": "1130",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L8",
+      "code": "1131",
+      "name": "Inventory - Finished Goods",
+      "target": "1131",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L9",
+      "code": "1140",
+      "name": "Prepaid Expenses",
+      "target": "1140",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L10",
+      "code": "1150",
+      "name": "Other Current Assets",
+      "target": "1150",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L11",
+      "code": "1210",
+      "name": "Property, Plant & Equipment - Cost",
+      "target": "1210",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L12",
+      "code": "1211",
+      "name": "Accumulated Depreciation - PPE",
+      "target": "1211",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L13",
+      "code": "1220",
+      "name": "Intangible Assets - Cost",
+      "target": "1220",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L14",
+      "code": "1221",
+      "name": "Accumulated Amortization",
+      "target": "1221",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L15",
+      "code": "1230",
+      "name": "Goodwill",
+      "target": "1230",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L16",
+      "code": "1240",
+      "name": "Long-term Investments",
+      "target": "1240",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L17",
+      "code": "1250",
+      "name": "Deferred Tax Asset",
+      "target": "1250",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L18",
+      "code": "2110",
+      "name": "Accounts Payable",
+      "target": "2110",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L19",
+      "code": "2120",
+      "name": "Accrued Expenses",
+      "target": "2120",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L20",
+      "code": "2130",
+      "name": "Short-term Debt",
+      "target": "2130",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L21",
+      "code": "2140",
+      "name": "Current Portion of Long-term Debt",
+      "target": "2140",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L22",
+      "code": "2150",
+      "name": "Income Tax Payable",
+      "target": "2150",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L23",
+      "code": "2160",
+      "name": "Deferred Revenue",
+      "target": "2160",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L24",
+      "code": "2170",
+      "name": "Intercompany Payable",
+      "target": "2170",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L25",
+      "code": "2210",
+      "name": "Long-term Debt",
+      "target": "2210",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L26",
+      "code": "2220",
+      "name": "Lease Liability - Long-term",
+      "target": "2220",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L27",
+      "code": "2230",
+      "name": "Deferred Tax Liability",
+      "target": "2230",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L28",
+      "code": "2240",
+      "name": "Pension Obligations",
+      "target": "2240",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L29",
+      "code": "3100",
+      "name": "Common Stock",
+      "target": "3100",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L30",
+      "code": "3110",
+      "name": "Additional Paid-in Capital",
+      "target": "3110",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L31",
+      "code": "3200",
+      "name": "Retained Earnings",
+      "target": "3200",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L32",
+      "code": "3310",
+      "name": "FX Translation Reserve",
+      "target": "3310",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L33",
+      "code": "3400",
+      "name": "Treasury Stock",
+      "target": "3400",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L34",
+      "code": "4100",
+      "name": "Product Revenue",
+      "target": "4100",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L35",
+      "code": "4110",
+      "name": "Service Revenue",
+      "target": "4110",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L36",
+      "code": "4200",
+      "name": "Sales Returns and Allowances",
+      "target": "4200",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L37",
+      "code": "4300",
+      "name": "Other Operating Revenue",
+      "target": "4300",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L38",
+      "code": "5100",
+      "name": "COGS - Materials",
+      "target": "5100",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L39",
+      "code": "5110",
+      "name": "COGS - Direct Labor",
+      "target": "5110",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L40",
+      "code": "5120",
+      "name": "COGS - Manufacturing Overhead",
+      "target": "5120",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L41",
+      "code": "6100",
+      "name": "Salaries and Wages",
+      "target": "6100",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L42",
+      "code": "6110",
+      "name": "Employee Benefits",
+      "target": "6110",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L43",
+      "code": "6120",
+      "name": "Payroll Taxes",
+      "target": "6120",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L44",
+      "code": "6200",
+      "name": "Rent Expense",
+      "target": "6200",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L45",
+      "code": "6210",
+      "name": "Utilities",
+      "target": "6210",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L46",
+      "code": "6220",
+      "name": "Office Supplies",
+      "target": "6220",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L47",
+      "code": "6300",
+      "name": "Marketing and Advertising",
+      "target": "6300",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L48",
+      "code": "6310",
+      "name": "Travel and Entertainment",
+      "target": "6310",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L49",
+      "code": "6310",
+      "name": "Travel and Entertainment",
+      "target": "6310",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L50",
+      "code": "6400",
+      "name": "Professional Fees",
+      "target": "6400",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L51",
+      "code": "6410",
+      "name": "Insurance",
+      "target": "6410",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L52",
+      "code": "6500",
+      "name": "Depreciation Expense",
+      "target": "6500",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L53",
+      "code": "6510",
+      "name": "Amortization Expense",
+      "target": "6510",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L54",
+      "code": "6600",
+      "name": "Bad Debt Expense",
+      "target": "6600",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L55",
+      "code": "6900",
+      "name": "Other Operating Expenses",
+      "target": "6900",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L56",
+      "code": "7100",
+      "name": "Interest Income",
+      "target": "7100",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L57",
+      "code": "7200",
+      "name": "Interest Expense",
+      "target": "7200",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L58",
+      "code": "7300",
+      "name": "FX Gain/Loss - Realized",
+      "target": "7300",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L59",
+      "code": "7310",
+      "name": "FX Gain/Loss - Unrealized",
+      "target": "7310",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L60",
+      "code": "7400",
+      "name": "Gain/Loss on Disposal of Assets",
+      "target": "7400",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L61",
+      "code": "8100",
+      "name": "Current Tax Expense",
+      "target": "8100",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L62",
+      "code": "8200",
+      "name": "Deferred Tax Expense",
+      "target": "8200",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "trial_balance.csv:L63",
+      "code": "9999",
+      "name": "Suspense - Unmapped",
+      "target": "7310",
+      "confidence": 0.27,
+      "method": "fuzzy_name_and_range"
+    }
+  ],
+  "prior": [
+    {
+      "src": "prior_period_tb.csv:L2",
+      "code": "1110",
+      "name": "Cash and Cash Equivalents",
+      "target": "1110",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L3",
+      "code": "1110",
+      "name": "Cash and Cash Equivalents",
+      "target": "1110",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L4",
+      "code": "1110",
+      "name": "Cash and Cash Equivalents",
+      "target": "1110",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L5",
+      "code": "1120",
+      "name": "Accounts Receivable",
+      "target": "1120",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L6",
+      "code": "1121",
+      "name": "Allowance for Doubtful Accounts",
+      "target": "1121",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L7",
+      "code": "1130",
+      "name": "Inventory - Raw Materials",
+      "target": "1130",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L8",
+      "code": "1131",
+      "name": "Inventory - Finished Goods",
+      "target": "1131",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L9",
+      "code": "1140",
+      "name": "Prepaid Expenses",
+      "target": "1140",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L10",
+      "code": "1150",
+      "name": "Other Current Assets",
+      "target": "1150",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L11",
+      "code": "1210",
+      "name": "Property, Plant & Equipment - Cost",
+      "target": "1210",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L12",
+      "code": "1211",
+      "name": "Accumulated Depreciation - PPE",
+      "target": "1211",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L13",
+      "code": "1220",
+      "name": "Intangible Assets - Cost",
+      "target": "1220",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L14",
+      "code": "1221",
+      "name": "Accumulated Amortization",
+      "target": "1221",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L15",
+      "code": "1230",
+      "name": "Goodwill",
+      "target": "1230",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L16",
+      "code": "1240",
+      "name": "Long-term Investments",
+      "target": "1240",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L17",
+      "code": "1250",
+      "name": "Deferred Tax Asset",
+      "target": "1250",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L18",
+      "code": "2110",
+      "name": "Accounts Payable",
+      "target": "2110",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L19",
+      "code": "2120",
+      "name": "Accrued Expenses",
+      "target": "2120",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L20",
+      "code": "2130",
+      "name": "Short-term Debt",
+      "target": "2130",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L21",
+      "code": "2140",
+      "name": "Current Portion of Long-term Debt",
+      "target": "2140",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L22",
+      "code": "2150",
+      "name": "Income Tax Payable",
+      "target": "2150",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L23",
+      "code": "2160",
+      "name": "Deferred Revenue",
+      "target": "2160",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L24",
+      "code": "2170",
+      "name": "Intercompany Payable",
+      "target": "2170",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L25",
+      "code": "2210",
+      "name": "Long-term Debt",
+      "target": "2210",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L26",
+      "code": "2220",
+      "name": "Lease Liability - Long-term",
+      "target": "2220",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L27",
+      "code": "2230",
+      "name": "Deferred Tax Liability",
+      "target": "2230",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L28",
+      "code": "2240",
+      "name": "Pension Obligations",
+      "target": "2240",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L29",
+      "code": "3100",
+      "name": "Common Stock",
+      "target": "3100",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L30",
+      "code": "3110",
+      "name": "Additional Paid-in Capital",
+      "target": "3110",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L31",
+      "code": "3200",
+      "name": "Retained Earnings",
+      "target": "3200",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L32",
+      "code": "3310",
+      "name": "FX Translation Reserve",
+      "target": "3310",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L33",
+      "code": "3400",
+      "name": "Treasury Stock",
+      "target": "3400",
+      "confidence": 1.0,
+      "method": "exact_code"
+    },
+    {
+      "src": "prior_period_tb.csv:L34",
+      "code": "6905",
+      "name": "Sundry Operating Expenses",
+      "target": "6900",
+      "confidence": 0.89,
+      "method": "fuzzy_name_and_range"
+    }
+  ]
+}

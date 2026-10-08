@@ -1,0 +1,1106 @@
+{
+  "1110": {
+    "net": "5674960.20",
+    "nominal": "5487700.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L2",
+        "usd_net": "4250000.00",
+        "ccy": "USD",
+        "local_net": "4250000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      },
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L3",
+        "usd_net": "903813.00",
+        "ccy": "EUR",
+        "local_net": "825400.00",
+        "rate": "1.095",
+        "rate_type": "period_end",
+        "memo": ""
+      },
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L4",
+        "usd_net": "521147.20",
+        "ccy": "GBP",
+        "local_net": "412300.00",
+        "rate": "1.264",
+        "rate_type": "period_average(FALLBACK for period_end)",
+        "memo": ""
+      }
+    ]
+  },
+  "1120": {
+    "net": "6180500.00",
+    "nominal": "6180500.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L5",
+        "usd_net": "6180500.00",
+        "ccy": "USD",
+        "local_net": "6180500.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "1121": {
+    "net": "-230000.00",
+    "nominal": "-185000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L6",
+        "usd_net": "-185000.00",
+        "ccy": "USD",
+        "local_net": "-185000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      },
+      {
+        "kind": "adj",
+        "ref": "JE-004#line2",
+        "usd_net": "-45000.00",
+        "ccy": "",
+        "local_net": null,
+        "rate": null,
+        "rate_type": "",
+        "memo": "Increase allowance"
+      }
+    ]
+  },
+  "1130": {
+    "net": "1920000.00",
+    "nominal": "1920000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L7",
+        "usd_net": "1920000.00",
+        "ccy": "USD",
+        "local_net": "1920000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "1131": {
+    "net": "3410000.00",
+    "nominal": "3410000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L8",
+        "usd_net": "3410000.00",
+        "ccy": "USD",
+        "local_net": "3410000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "1140": {
+    "net": "245000.00",
+    "nominal": "245000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L9",
+        "usd_net": "245000.00",
+        "ccy": "USD",
+        "local_net": "245000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "1150": {
+    "net": "78400.00",
+    "nominal": "78400.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L10",
+        "usd_net": "78400.00",
+        "ccy": "USD",
+        "local_net": "78400.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "1210": {
+    "net": "17007700.00",
+    "nominal": "17007700.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L11",
+        "usd_net": "17007700.00",
+        "ccy": "USD",
+        "local_net": "17007700.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "1211": {
+    "net": "-4415000.00",
+    "nominal": "-4200000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L12",
+        "usd_net": "-4200000.00",
+        "ccy": "USD",
+        "local_net": "-4200000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      },
+      {
+        "kind": "adj",
+        "ref": "JE-006#line2",
+        "usd_net": "-215000.00",
+        "ccy": "",
+        "local_net": null,
+        "rate": null,
+        "rate_type": "",
+        "memo": "Accum dep"
+      }
+    ]
+  },
+  "1220": {
+    "net": "2800000.00",
+    "nominal": "2800000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L13",
+        "usd_net": "2800000.00",
+        "ccy": "USD",
+        "local_net": "2800000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "1221": {
+    "net": "-980000.00",
+    "nominal": "-980000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L14",
+        "usd_net": "-980000.00",
+        "ccy": "USD",
+        "local_net": "-980000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "1230": {
+    "net": "3500000.00",
+    "nominal": "3500000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L15",
+        "usd_net": "3500000.00",
+        "ccy": "USD",
+        "local_net": "3500000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "1240": {
+    "net": "750000.00",
+    "nominal": "750000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L16",
+        "usd_net": "750000.00",
+        "ccy": "USD",
+        "local_net": "750000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "1250": {
+    "net": "282000.00",
+    "nominal": "320000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L17",
+        "usd_net": "320000.00",
+        "ccy": "USD",
+        "local_net": "320000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      },
+      {
+        "kind": "adj",
+        "ref": "JE-007#line2",
+        "usd_net": "-38000.00",
+        "ccy": "",
+        "local_net": null,
+        "rate": null,
+        "rate_type": "",
+        "memo": "Reduce DTA"
+      }
+    ]
+  },
+  "2110": {
+    "net": "-2840000.00",
+    "nominal": "-2840000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L18",
+        "usd_net": "-2840000.00",
+        "ccy": "USD",
+        "local_net": "-2840000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "2120": {
+    "net": "-2075000.00",
+    "nominal": "-1150000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L19",
+        "usd_net": "-1150000.00",
+        "ccy": "USD",
+        "local_net": "-1150000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      },
+      {
+        "kind": "adj",
+        "ref": "JE-001#line2",
+        "usd_net": "-850000.00",
+        "ccy": "",
+        "local_net": null,
+        "rate": null,
+        "rate_type": "",
+        "memo": "Accrual offset"
+      },
+      {
+        "kind": "adj",
+        "ref": "JE-009#line2",
+        "usd_net": "-75000.00",
+        "ccy": "",
+        "local_net": null,
+        "rate": null,
+        "rate_type": "",
+        "memo": "Accrued legal"
+      }
+    ]
+  },
+  "2130": {
+    "net": "-1500000.00",
+    "nominal": "-1500000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L20",
+        "usd_net": "-1500000.00",
+        "ccy": "USD",
+        "local_net": "-1500000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "2140": {
+    "net": "-1000000.00",
+    "nominal": "-800000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L21",
+        "usd_net": "-800000.00",
+        "ccy": "USD",
+        "local_net": "-800000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      },
+      {
+        "kind": "adj",
+        "ref": "JE-010#line2",
+        "usd_net": "-200000.00",
+        "ccy": "",
+        "local_net": null,
+        "rate": null,
+        "rate_type": "",
+        "memo": "Into current"
+      }
+    ]
+  },
+  "2150": {
+    "net": "-420000.00",
+    "nominal": "-420000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L22",
+        "usd_net": "-420000.00",
+        "ccy": "USD",
+        "local_net": "-420000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "2160": {
+    "net": "-680000.00",
+    "nominal": "-680000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L23",
+        "usd_net": "-680000.00",
+        "ccy": "USD",
+        "local_net": "-680000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "2170": {
+    "net": "-1240000.00",
+    "nominal": "-1240000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L24",
+        "usd_net": "-1240000.00",
+        "ccy": "USD",
+        "local_net": "-1240000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "2210": {
+    "net": "-6300000.00",
+    "nominal": "-6500000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L25",
+        "usd_net": "-6500000.00",
+        "ccy": "USD",
+        "local_net": "-6500000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      },
+      {
+        "kind": "adj",
+        "ref": "JE-010#line1",
+        "usd_net": "200000.00",
+        "ccy": "",
+        "local_net": null,
+        "rate": null,
+        "rate_type": "",
+        "memo": "Out of LT debt"
+      }
+    ]
+  },
+  "2220": {
+    "net": "-1320000.00",
+    "nominal": "-1320000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L26",
+        "usd_net": "-1320000.00",
+        "ccy": "USD",
+        "local_net": "-1320000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "2230": {
+    "net": "-485000.00",
+    "nominal": "-485000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L27",
+        "usd_net": "-485000.00",
+        "ccy": "USD",
+        "local_net": "-485000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "2240": {
+    "net": "-910000.00",
+    "nominal": "-910000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L28",
+        "usd_net": "-910000.00",
+        "ccy": "USD",
+        "local_net": "-910000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "3100": {
+    "net": "-1000000.00",
+    "nominal": "-1000000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L29",
+        "usd_net": "-1000000.00",
+        "ccy": "USD",
+        "local_net": "-1000000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "3110": {
+    "net": "-4500000.00",
+    "nominal": "-4500000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L30",
+        "usd_net": "-4500000.00",
+        "ccy": "USD",
+        "local_net": "-4500000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "3200": {
+    "net": "-7240000.00",
+    "nominal": "-7240000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L31",
+        "usd_net": "-7240000.00",
+        "ccy": "USD",
+        "local_net": "-7240000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "3310": {
+    "net": "-367260.20",
+    "nominal": "-180000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L32",
+        "usd_net": "-180000.00",
+        "ccy": "USD",
+        "local_net": "-180000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      },
+      {
+        "kind": "system",
+        "ref": "SYS-CTA",
+        "usd_net": "-187260.20",
+        "ccy": "",
+        "local_net": null,
+        "rate": null,
+        "rate_type": "",
+        "memo": "Provisional translation difference on foreign-currency cash -> 3310 (assumes TB foreign rows are in local currency; policy to be confirmed)"
+      }
+    ]
+  },
+  "3400": {
+    "net": "420000.00",
+    "nominal": "420000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L33",
+        "usd_net": "420000.00",
+        "ccy": "USD",
+        "local_net": "420000.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  },
+  "4100": {
+    "net": "-28500000.00",
+    "nominal": "-28500000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L34",
+        "usd_net": "-28500000.00",
+        "ccy": "USD",
+        "local_net": "-28500000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "4110": {
+    "net": "-6200000.00",
+    "nominal": "-6200000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L35",
+        "usd_net": "-6200000.00",
+        "ccy": "USD",
+        "local_net": "-6200000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "4200": {
+    "net": "340000.00",
+    "nominal": "340000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L36",
+        "usd_net": "340000.00",
+        "ccy": "USD",
+        "local_net": "340000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "4300": {
+    "net": "-125000.00",
+    "nominal": "-125000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L37",
+        "usd_net": "-125000.00",
+        "ccy": "USD",
+        "local_net": "-125000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "5100": {
+    "net": "9800000.00",
+    "nominal": "9800000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L38",
+        "usd_net": "9800000.00",
+        "ccy": "USD",
+        "local_net": "9800000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "5110": {
+    "net": "4200000.00",
+    "nominal": "4200000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L39",
+        "usd_net": "4200000.00",
+        "ccy": "USD",
+        "local_net": "4200000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "5120": {
+    "net": "2650000.00",
+    "nominal": "2650000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L40",
+        "usd_net": "2650000.00",
+        "ccy": "USD",
+        "local_net": "2650000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "6100": {
+    "net": "6250000.00",
+    "nominal": "5400000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L41",
+        "usd_net": "5400000.00",
+        "ccy": "USD",
+        "local_net": "5400000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      },
+      {
+        "kind": "adj",
+        "ref": "JE-001#line1",
+        "usd_net": "850000.00",
+        "ccy": "",
+        "local_net": null,
+        "rate": null,
+        "rate_type": "",
+        "memo": "Bonus accrual"
+      }
+    ]
+  },
+  "6110": {
+    "net": "920000.00",
+    "nominal": "920000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L42",
+        "usd_net": "920000.00",
+        "ccy": "USD",
+        "local_net": "920000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "6120": {
+    "net": "410000.00",
+    "nominal": "410000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L43",
+        "usd_net": "410000.00",
+        "ccy": "USD",
+        "local_net": "410000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "6200": {
+    "net": "480000.00",
+    "nominal": "480000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L44",
+        "usd_net": "480000.00",
+        "ccy": "USD",
+        "local_net": "480000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "6210": {
+    "net": "115000.00",
+    "nominal": "115000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L45",
+        "usd_net": "115000.00",
+        "ccy": "USD",
+        "local_net": "115000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "6220": {
+    "net": "62000.00",
+    "nominal": "62000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L46",
+        "usd_net": "62000.00",
+        "ccy": "USD",
+        "local_net": "62000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "6300": {
+    "net": "980000.00",
+    "nominal": "980000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L47",
+        "usd_net": "980000.00",
+        "ccy": "USD",
+        "local_net": "980000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "6310": {
+    "net": "283500.00",
+    "nominal": "283500.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L48",
+        "usd_net": "245000.00",
+        "ccy": "USD",
+        "local_net": "245000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      },
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L49",
+        "usd_net": "38500.00",
+        "ccy": "USD",
+        "local_net": "38500.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "6400": {
+    "net": "595000.00",
+    "nominal": "520000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L50",
+        "usd_net": "520000.00",
+        "ccy": "USD",
+        "local_net": "520000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      },
+      {
+        "kind": "adj",
+        "ref": "JE-009#line1",
+        "usd_net": "75000.00",
+        "ccy": "",
+        "local_net": null,
+        "rate": null,
+        "rate_type": "",
+        "memo": "Legal accrual"
+      }
+    ]
+  },
+  "6410": {
+    "net": "180000.00",
+    "nominal": "180000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L51",
+        "usd_net": "180000.00",
+        "ccy": "USD",
+        "local_net": "180000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "6500": {
+    "net": "1065000.00",
+    "nominal": "850000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L52",
+        "usd_net": "850000.00",
+        "ccy": "USD",
+        "local_net": "850000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      },
+      {
+        "kind": "adj",
+        "ref": "JE-006#line1",
+        "usd_net": "215000.00",
+        "ccy": "",
+        "local_net": null,
+        "rate": null,
+        "rate_type": "",
+        "memo": "Q4 dep"
+      }
+    ]
+  },
+  "6510": {
+    "net": "220000.00",
+    "nominal": "220000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L53",
+        "usd_net": "220000.00",
+        "ccy": "USD",
+        "local_net": "220000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "6600": {
+    "net": "140000.00",
+    "nominal": "95000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L54",
+        "usd_net": "95000.00",
+        "ccy": "USD",
+        "local_net": "95000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      },
+      {
+        "kind": "adj",
+        "ref": "JE-004#line1",
+        "usd_net": "45000.00",
+        "ccy": "",
+        "local_net": null,
+        "rate": null,
+        "rate_type": "",
+        "memo": "Top-up reserve"
+      }
+    ]
+  },
+  "6900": {
+    "net": "140000.00",
+    "nominal": "140000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L55",
+        "usd_net": "140000.00",
+        "ccy": "USD",
+        "local_net": "140000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "7100": {
+    "net": "-62000.00",
+    "nominal": "-62000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L56",
+        "usd_net": "-62000.00",
+        "ccy": "USD",
+        "local_net": "-62000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "7200": {
+    "net": "410000.00",
+    "nominal": "410000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L57",
+        "usd_net": "410000.00",
+        "ccy": "USD",
+        "local_net": "410000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "7300": {
+    "net": "85000.00",
+    "nominal": "85000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L58",
+        "usd_net": "85000.00",
+        "ccy": "USD",
+        "local_net": "85000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "7310": {
+    "net": "-42000.00",
+    "nominal": "-42000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L59",
+        "usd_net": "-42000.00",
+        "ccy": "USD",
+        "local_net": "-42000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "7400": {
+    "net": "-18000.00",
+    "nominal": "-18000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L60",
+        "usd_net": "-18000.00",
+        "ccy": "USD",
+        "local_net": "-18000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "8100": {
+    "net": "680000.00",
+    "nominal": "680000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L61",
+        "usd_net": "680000.00",
+        "ccy": "USD",
+        "local_net": "680000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      }
+    ]
+  },
+  "8200": {
+    "net": "158000.00",
+    "nominal": "120000.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L62",
+        "usd_net": "120000.00",
+        "ccy": "USD",
+        "local_net": "120000.00",
+        "rate": "1",
+        "rate_type": "period_average",
+        "memo": ""
+      },
+      {
+        "kind": "adj",
+        "ref": "JE-007#line1",
+        "usd_net": "38000.00",
+        "ccy": "",
+        "local_net": null,
+        "rate": null,
+        "rate_type": "",
+        "memo": "DTA reduction"
+      }
+    ]
+  },
+  "UNMAPPED:9999": {
+    "net": "12400.00",
+    "nominal": "12400.00",
+    "sources": [
+      {
+        "kind": "tb",
+        "ref": "trial_balance.csv:L63",
+        "usd_net": "12400.00",
+        "ccy": "USD",
+        "local_net": "12400.00",
+        "rate": "1",
+        "rate_type": "period_end",
+        "memo": ""
+      }
+    ]
+  }
+}

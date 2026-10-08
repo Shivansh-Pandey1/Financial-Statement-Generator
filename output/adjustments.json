@@ -1,0 +1,60 @@
+[
+  {
+    "id": "JE-001",
+    "status": "accepted",
+    "reasons": []
+  },
+  {
+    "id": "JE-002",
+    "status": "rejected",
+    "reasons": [
+      "Debits (28,500.00) do not equal credits (25,000.00); out of balance by 3,500.00. An unbalanced entry would silently break the balance sheet, so none of it is posted."
+    ]
+  },
+  {
+    "id": "JE-003",
+    "status": "quarantined",
+    "reasons": [
+      "Booked uplift 11,200.00 cannot be reproduced: EUR 825,400.00 x (period-end 1.095 - average 1.082) = 10,730.20; x (period-end - opening 1.071) = 19,809.60. Also, this pipeline already translates EUR/GBP cash at the period-end rate, so posting this on top would count the FX gain twice. Held until the reval basis is confirmed."
+    ]
+  },
+  {
+    "id": "JE-004",
+    "status": "accepted",
+    "reasons": []
+  },
+  {
+    "id": "JE-005",
+    "status": "quarantined",
+    "reasons": [
+      "Account 6315 is not a postable account in the chart of accounts (closest: 6310 'Travel and Entertainment', confidence 0.64 - below the 0.9 auto-accept bar). Needs a finance owner to confirm the right account."
+    ]
+  },
+  {
+    "id": "JE-006",
+    "status": "accepted",
+    "reasons": []
+  },
+  {
+    "id": "JE-007",
+    "status": "accepted",
+    "reasons": []
+  },
+  {
+    "id": "JE-008",
+    "status": "rejected",
+    "reasons": [
+      "Every line hits the same account (2170), so the entry nets to zero and changes nothing, yet the description says a settlement happened. A real settlement must touch another account (cash, or the counterparty's intercompany receivable). Likely a mis-keyed entry."
+    ]
+  },
+  {
+    "id": "JE-009",
+    "status": "accepted",
+    "reasons": []
+  },
+  {
+    "id": "JE-010",
+    "status": "accepted",
+    "reasons": []
+  }
+]

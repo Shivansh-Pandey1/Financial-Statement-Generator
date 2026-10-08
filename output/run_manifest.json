@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "trial_balance.csv": "6a5d38f4a7792e5a",
+    "prior_period_tb.csv": "aa1439622935eadb",
+    "chart_of_accounts.csv": "1139711bd276b2d4",
+    "fx_rates.csv": "268c9b9b5a14ea55",
+    "manual_adjustments.json": "26fcad0c0c7bda53"
+  },
+  "auto_map_threshold": 0.9,
+  "translation_policy": "oci",
+  "advisor": "none",
+  "human_overrides": [],
+  "status": "DRAFT - BLOCKED (do not release)"
+}
